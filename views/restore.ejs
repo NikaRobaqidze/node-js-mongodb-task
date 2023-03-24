@@ -1,0 +1,23 @@
+<body style="padding: 12px 20px;">
+    <div style="background-color: whitesmoke; padding: 25px; border-radius: 15px;">
+        <h1 style="text-align: center;">
+            Profile restore
+        </h1>
+
+        <div style="border-radius: 5px; padding: 12px;">
+            To reset password of profile make http PUT request to server with next keys: <br> {
+            <p>
+                <b>log: "Email or phone of user.",</b>
+            </p>
+
+            <p>
+                <b>restoreCode: "<b style="font-size: 25px; vertical-align: middle; background-color: white;"><%= Code %></b>",</b>
+            </p>
+
+            <p>
+                <b>newPassword: "New password of user to update."</b>
+            </p>
+            }
+        </div>
+    </div>
+</body>

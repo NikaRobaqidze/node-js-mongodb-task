@@ -1,0 +1,30 @@
+{
+  "name": "personal-finance-app",
+  "version": "1.0.0",
+  "description": "Task from SweeftDigital name 'Personal finance applications'. Created on Node.js and MongoDB.",
+  "main": "app.js",
+  "scripts": {
+    "app": "nodemon app.js",
+    "create-dbs": "node ./Utils/DB-Backup/createDBs.js"
+  },
+  "author": "Nick Robaqidze",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie": "^0.5.0",
+    "cookie-parser": "^1.4.6",
+    "cryptr": "^6.2.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-flash": "^0.0.2",
+    "express-session": "^1.17.3",
+    "md5": "^2.3.0",
+    "mongodb": "^5.1.0",
+    "nodemailer": "^6.9.1",
+    "password-generator": "^2.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.3"
+  }
+}

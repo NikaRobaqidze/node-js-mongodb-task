@@ -4,7 +4,7 @@
   "description": "Task from SweeftDigital name 'Personal finance applications'. Created on Node.js and MongoDB.",
   "main": "app.js",
   "scripts": {
-    "app": "nodemon app.js",
+    "app": "node app.js",
     "create-dbs": "node ./Utils/DB-Backup/createDBs.js"
   },
   "author": "Nick Robaqidze",
